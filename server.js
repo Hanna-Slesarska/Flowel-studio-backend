@@ -11,7 +11,7 @@ const reviewRoutes = require('./routes/reviewRoute');
 
 // Enable CORS
 app.use(cors({
-  origin:  ['https://flowel-studio.vercel.app', 'https://flowel-studio.com'],
+  origin:  ['https://flowel-studio.com', 'http://localhost:3000'],
   credentials: true 
 }));
 
